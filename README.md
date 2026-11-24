@@ -8,11 +8,10 @@ Enis Akarsu'nun günlük kullandığı pazarlama skill'leri tek bir komutta topl
 Claude Code'a şu promptu yapıştır:
 
 ```
-Install the /pazarlama skill package from github.com/enisakarsu/pazarlama-skill globally.
-Run: npx skills add enisakarsu/pazarlama-skill -g
-Then install every external skill listed in the "Kurulum" section of skills/pazarlama/SKILL.md, globally, and confirm with a list.
+github.com/enisakarsu/pazarlama-skill adresindeki /pazarlama paketini global olarak kur.
+Şu komutu çalıştır: npx skills add enisakarsu/pazarlama-skill -g
+Ardından skills/pazarlama/SKILL.md dosyasının "Kurulum" bölümündeki dış kaynaklı skill'lerin hepsini global olarak kur ve kurulanları liste halinde göster.
 ```
-
 Ya da elle:
 
 ```
