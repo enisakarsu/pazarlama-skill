@@ -10,7 +10,7 @@ Claude Code'a şu promptu yapıştır:
 ```
 Install the /pazarlama skill package from github.com/enisakarsu/pazarlama-skill globally.
 Run: npx skills add enisakarsu/pazarlama-skill -g
-Then install every skill listed in its "Kurulum" section, globally, and confirm with a list.
+Then install every external skill listed in the "Kurulum" section of skills/pazarlama/SKILL.md, globally, and confirm with a list.
 ```
 
 Ya da elle:
@@ -19,20 +19,23 @@ Ya da elle:
 npx skills add enisakarsu/pazarlama-skill -g
 ```
 
-Ardından `skills/pazarlama/SKILL.md` içindeki "Kurulum" komutlarıyla alt skill'leri kur.
+Bu komut yönlendiriciyi ve paketin içindeki 16 skill'i kurar. Dış kaynaklı skill'ler için `skills/pazarlama/SKILL.md` içindeki "Kurulum" komutlarını çalıştır.
 
 ## İçindekiler
 
 | Alan | Skill'ler |
 |---|---|
-| Araştırma ve strateji | product-marketing, understand-customers, customer-journey, competitor-analysis, social-content, content-strategy, marketing-psychology, launch |
+| Araştırma ve strateji | product-marketing, understand-customers, customer-journey, competitor-analysis, social-content, content-strategy, marketing-psychology, launch, content-matrix |
+| Ses ve profil | voice-builder, newsletter-voice, profile-optimizer |
+| Gönderi üretimi | post-writer, post-formatter, hook-generator, quote-post, pinned-comment, post-scorer |
 | Metin | copywriting, copy-editing |
-| Video | watch, youtube-seo, derin-ads-hook-generator |
+| Görsel | graphic-designer, gemini-carousel, gemini-infographic, banner-design |
+| Video | watch, video-understand, reels-scripting, youtube-seo, derin-ads-hook-generator |
 | Dağıtım | parasite-and-pr |
 
 ## Kaynaklar
 
-Bu paket bir yönlendiricidir; alt skill'ler kendi depolarından kurulur ve haklar sahiplerine aittir:
+Pakette 30 skill var: 16'sı bu depoda (`skills/`), diğerleri kendi depolarından kurulur ve hakları sahiplerine aittir:
 
 - [hsynozdamar-byte/claude-skills-edited](https://github.com/hsynozdamar-byte/claude-skills-edited)
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
@@ -45,4 +48,4 @@ Daha fazlası: [enisakarsu.com](https://enisakarsu.com)
 
 ## Lisans
 
-Yönlendirici (`skills/pazarlama/SKILL.md`) MIT lisanslıdır. Alt skill'ler kendi lisanslarına tabidir.
+Bu depodaki skill'ler MIT lisanslıdır. Dış kaynaklı skill'ler kendi lisanslarına tabidir.
